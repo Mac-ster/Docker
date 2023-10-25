@@ -1,0 +1,44 @@
+
+Docker
+
+
+
+Understanding Docker
+
+
+https://www.youtube.com/watch?v=wxxigbHwDGM&list=PL2We04F3Y_40PSZyTcOUuH4flMxbxkhDe&index=2
+
+
+1
+Why do we need docker?
+Ans.
+An application comprises of different components/services which needs to have a compatibility with the underlying OS, or sometimes when application is developed in different environment other than production environment then the services/components don’t let the application work same way as developed, to avoid the architecture compatibility issue usually refers as “The matrix from Hell”, Docker comes in picture to overcome the application architecture compatibility.
+2
+What can docker do?
+Ans.
+Docker provides an isolated environment in the form of containers where a user can containerize the application component/services with its libraries and dependencies. This makes sure the application runs consistently with no issues among different environments.
+3
+Why docker container sharing the kernel
+Ans.
+Docker containers share the kernel for efficiency and resource optimization. For instance  the Os like Fedora, CentOS, Ubuntu have the same underlying kernel i.e Linux so this allows DC to achieve lightweight isolation and making it easier to run multiple container on single host.
+4
+What is docker?
+Ans.
+It is a containerization platform which allows you to package the software and its dependencies into a single unit called Container. It is used for consistent and portable deployment across different environments.
+5
+What is docker container?
+Ans.
+Docker container is a running instance of Docker image.
+6
+What is docker Image?
+Ans.
+A Docker image is a read-only template that contains the application code and its dependencies.
+7
+What are the differences between container and Virtual machine?
+Ans.
+Containers are virtualized at OS level whereas VM use Hardware level virtualisation.
+Containers are lightweight as they share the host OS kernel whereas VMs are heavier in terms of resource consumption and each VM has its own OS kernel which requires more memory, storage and CPU.
+Containers boot up in matter of seconds in compare to Vms which can take minutes as needed to boot up the entire OS.
+Since Containers share same OS kernel, it could lead to potential vulnerability if not configured properly whereas VMs are fully isolated and doesn’t any such issues.
+
+
