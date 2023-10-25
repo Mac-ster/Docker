@@ -1,0 +1,33 @@
+
+What is docker?
+
+
+What is Docker? Easy way
+
+https://www.youtube.com/watch?v=-LeV_c1zG-s
+
+
+1
+What is Docker?
+Ans.
+It is a containerization platform which allows you to package the software and its dependencies into a single unit called Container. It is used for consistent and portable deployment across different environments.
+2
+What is container?
+Ans.
+A running instance of a Docket image is known as container. Container consist of Software code and all its dependencies and libraries required to run.
+3
+What is the problem that developer faced before docker?
+Ans.
+Portability issue, whenever a developer working on any project and it works perfectly in their machine, however when the same project moves on to production server it gives issues. Problems like images aren’t loaded properly or the path doesn’t match exactly.
+
+
+4
+What is the problem that docker trying to resolve?
+Ans.
+Portability
+ Dependency Management that means a developer can define the exact environment and dependencies required for their applications in a Dockerfile.
+Consistency: It ensures consistent behavior across different environments.
+Isolation: Docker containers provide process-level isolation, allowing multiple applications or services to run on the same host without interfering with each other.
+Efficiency: Docker containers are lightweight and share the host OS kernel.
+
+
