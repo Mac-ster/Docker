@@ -26,5 +26,3 @@ Whenever any application build, it works fine at the developer machine but it ga
 What is the problem that docker trying to resolve?
 Ans.
 Inconsistent application response on different machines, basically with Docker, developers can work on their building the code and package it with respective dependencies in single unit which can later be used on production or testing or deployment environments.
-
-
