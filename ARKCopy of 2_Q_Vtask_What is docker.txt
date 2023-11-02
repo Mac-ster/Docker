@@ -29,5 +29,3 @@ Portability
 Consistency: It ensures consistent behavior across different environments.
 Isolation: Docker containers provide process-level isolation, allowing multiple applications or services to run on the same host without interfering with each other.
 Efficiency: Docker containers are lightweight and share the host OS kernel.
-
-
