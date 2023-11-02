@@ -1,0 +1,59 @@
+How to intall docker on linux
+
+
+Docker Beginner Tutorial 4 - How to install DOCKER on LINUX
+
+
+https://www.youtube.com/watch?v=KCckWweNSrM&list=PLhW3qG5bs-L99pQsZ74f-LC-tOEsBp2rK&index=5
+
+
+1
+Which command we used to know about our Operating system (OS)
+Ans.
+uname -r
+2
+Which command we used to update docker?
+Ans.
+sudo yum -y update
+3
+Which command we used to install docker?
+Ans.
+Linux: sudo yum -y install
+4
+Which command we used to start docker?
+Ans.
+sudo service docker start
+5
+Which command we used to add user to the docker group?
+
+
+Ans.
+sudo usermod -a -G docker "user_name"
+6
+Which command we used to know the installed version of docker software on the system?
+Ans.
+docker –version
+7
+Which command we used to listing all the containers which are running?
+
+
+Ans.
+docker ps
+8
+If there are any stopped container which command we used to know?
+Ans.
+docker ps -a
+9
+Which command we used to stop docker?
+Ans.
+sudo service docker stop
+10
+Which command we used to uninstall docker?
+Ans.
+sudo yum remove docker
+
+
+
+
+
+
