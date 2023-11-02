@@ -1,0 +1,30 @@
+
+What is docker?
+
+
+
+Docker Beginner Tutorial 1 - What is DOCKER
+
+https://www.youtube.com/watch?v=wi-MGFhrad0&list=PLhW3qG5bs-L99pQsZ74f-LC-tOEsBp2rK
+
+
+1
+What is Docker?
+Ans.
+Docker is a tool designed to make it easier to deploy and run applications by using containers.
+or
+Docker is a tool that offers containerization platform that allows you to package the application and its dependencies into a single unit called Container. Docker is used for consistent and portable deployment across different environments.
+2
+What is container?
+Ans.
+A container in Docker is a package that consists of a software application and its dependencies(like the code, system tools and libraries) in a single unit which makes it easier for applications to run consistently across different platforms or environments.
+3
+What is the problem that developer faced before docker?
+Ans.
+Whenever any application build, it works fine at the developer machine but it gave issues when its run on different machine than developer.
+4
+What is the problem that docker trying to resolve?
+Ans.
+Inconsistent application response on different machines, basically with Docker, developers can work on their building the code and package it with respective dependencies in single unit which can later be used on production or testing or deployment environments.
+
+
