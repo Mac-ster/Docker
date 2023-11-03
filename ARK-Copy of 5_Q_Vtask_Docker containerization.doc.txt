@@ -73,38 +73,31 @@ docker ps -a
 15-
 Which command we used for logging into/accessing the container?
 Ans.
-
-
+docker exec <options> <container_id> <command>
 16
 Which command we used to stop a running container?
 Ans.
-
-
+docker stop <container_id>
 17.
 What is kill command?
 Ans.
-
-
+It forcefully stops the running Container.
 18
 Which command we used to kill the container
 Ans.
-
-
+docker kill <container_id>or<container_name>
 19
 Which command we used to remove the stopped container?
 Ans.
-
-
+docker rmi <container_id>
 20
 Which command we use to run the image?
 Ans.
-
-
+docker run <image_name>
 21
 Which command we used to remove image?
 Ans.
-
-
+docker rmi <image_name>
 22
 What are the steps we need to follow to creating a docker hub Account?
 Ans.
@@ -113,13 +106,11 @@ Ans.
 23
 Which command we used to create a new image?
 Ans.
-
-
+docker build -t <image_name>
 24
 What is Dockerfile?
 Ans.
-
-
+Dockerfile consists of set of instructions that specify how the image should be built
 25
 What are the commands in DockerFile?
 Ans.
