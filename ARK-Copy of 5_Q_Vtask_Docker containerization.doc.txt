@@ -1,0 +1,232 @@
+
+
+Docker Tutorial | Docker Containerization
+
+
+https://www.youtube.com/watch?v=sRIxHHZFwBA
+
+
+1
+What is the problem that developer faced before docker?
+Ans.
+
+
+2
+What is docker?
+Ans.
+
+
+3
+What is docker container?
+Ans.
+
+
+4
+Why do we need Docker?
+Ans.
+
+
+5.
+What is the difference between Docker and VM?
+Ans.
+
+
+6
+Which command we use to create a docker container?
+Ans.
+
+
+7
+What is Docker hub?
+Ans.
+
+
+8
+What is docker Engine?
+Ans.
+
+
+9
+What is Docker Image?
+Ans.
+
+
+10
+Which  command we used to know the installed version of docker software on the system?
+Ans.
+
+
+11
+Which command we used to pull images from the central docker repository?
+Ans.
+
+
+12
+Which command we used to running container from their image?
+
+
+Ans.
+
+
+13
+Which command we used to listing all the containers which are running?
+
+
+Ans.
+
+
+14
+If there are any stopped container which command we used to know?
+Ans.
+
+
+15-
+Which command we used for logging into/accessing the container?
+Ans.
+
+
+16
+Which command we used to stop a running container?
+Ans.
+
+
+17.
+What is kill command?
+Ans.
+
+
+18
+Which command we used to kill the container
+Ans.
+
+
+19
+Which command we used to remove the stopped container?
+Ans.
+
+
+20
+Which command we use to run the image?
+Ans.
+
+
+21
+Which command we used to remove image?
+Ans.
+
+
+22
+What are the steps we need to follow to creating a docker hub Account?
+Ans.
+
+
+23
+Which command we used to create a new image?
+Ans.
+
+
+24
+What is Dockerfile?
+Ans.
+
+
+25
+What are the commands in DockerFile?
+Ans.
+
+
+26
+What is FROM Command?
+Ans.
+
+
+27
+What is ADD command?
+Ans.
+
+
+28
+What is the syntax of ADD command?
+Ans.
+
+
+29
+What is RUN command?
+Ans.
+
+
+30
+What is CMD command?
+Ans.
+
+
+31
+What is ENTRYPOINT command?
+Ans.
+
+
+32
+What is ENV command?
+Ans.
+
+
+33
+What is Docker Volume?
+Ans.
+
+
+34
+Which command we used to create docker volume?
+Ans.
+
+35
+Which command we used for attaching docker volume to the container.
+Ans.
+
+
+36
+What is monolithic Application?
+Ans.
+
+
+37
+What are the disadvantages of monolithic application/
+Ans.
+\
+38
+What are Microservices?
+Ans.
+
+
+39
+What are the advantage of Microservices?
+Ans.
+
+
+40
+What is docker compose?
+Ans.
+
+
+41
+What is docker Swarm?
+Ans.
+
+
+42
+Which command we use for creating docker swarm cluster?
+Ans.
+
+
+43
+What is a service?
+Ans.
+
+
+44
+Which command we used to create service?
+Ans.
+
+
+
+
