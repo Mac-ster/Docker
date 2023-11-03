@@ -195,6 +195,28 @@ Ans.
 
 40
 What is docker compose?
-Ans
+Ans.
+
+
+41
+What is docker Swarm?
+Ans.
+
+
+42
+Which command we use for creating docker swarm cluster?
+Ans.
+
+
+43
+What is a service?
+Ans.
+
+
+44
+Which command we used to create service?
+Ans.
+
+
 
 
