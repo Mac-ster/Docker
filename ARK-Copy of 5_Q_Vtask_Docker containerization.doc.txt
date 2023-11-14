@@ -1,5 +1,189 @@
 
 
+Docker Tutorial | Docker Containerization
+
+
+https://www.youtube.com/watch?v=sRIxHHZFwBA
+
+
+1
+What is the problem that developer faced before docker?
+Ans.
+Installing software application and dependencies in different environments, which is time consuming and lacks performance consistency as it was built originally on developer machine, to overcome this problem Docker was introduced.
+2
+What is docker?
+Ans.
+Docker is an open-source platform that helps the user to package the application and its dependencies in docker container for the development and deployment of software.
+3
+What is docker container?
+Ans.
+Docker container consists of software and its dependencies required to run an application efficiently and bugfree in different environment.
+4
+Why do we need Docker?
+Ans.
+For the efficient and bug free running of an application in different computer environments.
+5.
+What is the difference between Docker and VM?
+Ans.
+Both of them used to run an application in isolated environment, but they operate differently.
+Docker Container uses OS level virtualization where as VM uses hardware level virtualization where each VM has its on own OS.
+Docker containers are lightweight since they share the host OS kernel, compare to VMs which are heavier in resource consumption because each VM has its own OS kernel.
+Docker Containers are highly portable,  as it package application and their dependencies. VMs are less portable due its larger size and its complex to VMs between different hypervisors.
+6
+Which command we use to create a docker container?
+Ans.
+docker run <options> <image_name>
+7
+What is Docker hub?
+Ans.
+Docker hub is a cloud bassed registry provide by Docker which serves as centralized repository for docker images. These images are either pre-packaged application or customize application uploaded by users.
+8
+What is docker Engine?
+Ans.
+Docker Engine consists of Docker client and Docker Daemon, they communicate using REST Api. For example, a Docker client uses Rest API to send commands to Docker Daemon through CLI commands then, Docker checks the client request and communicates with Docker components to perform the required service.
+9
+What is Docker Image?
+Ans.
+Docker is a file of instructions used to create Docker containers.
+10
+Which  command we used to know the installed version of docker software on the system?
+Ans.
+docker –version
+11
+Which command we used to pull images from the central docker repository?
+Ans.
+docker pull <image_name>
+12
+Which command we used to running container from their image?
+
+
+Ans.
+
+
+13
+Which command we used to listing all the containers which are running?
+
+
+Ans.
+docker ps
+14
+If there are any stopped container which command we used to know?
+Ans.
+docker ps -a
+15-
+Which command we used for logging into/accessing the container?
+Ans.
+docker exec <options> <container_id> <command>
+16
+Which command we used to stop a running container?
+Ans.
+docker stop <container_id>
+17.
+What is kill command?
+Ans.
+It forcefully stops the running Container.
+18
+Which command we used to kill the container
+Ans.
+docker kill <container_id>or<container_name>
+19
+Which command we used to remove the stopped container?
+Ans.
+docker rmi <container_id>
+20
+Which command we use to run the image?
+Ans.
+docker run <image_name>
+21
+Which command we used to remove image?
+Ans.
+docker rmi <image_name>
+22
+What are the steps we need to follow to creating a docker hub Account?
+Ans.
+
+
+23
+Which command we used to create a new image?
+Ans.
+docker build -t <image_name>
+24
+What is Dockerfile?
+Ans.
+Dockerfile consists of set of instructions that specify how the image should be built
+25
+What are the commands in DockerFile?
+Ans.
+
+
+26
+What is FROM Command?
+Ans.
+
+
+27
+What is ADD command?
+Ans.
+
+
+28
+What is the syntax of ADD command?
+Ans.
+
+
+29
+What is RUN command?
+Ans.
+
+
+30
+What is CMD command?
+Ans.
+
+
+31
+What is ENTRYPOINT command?
+Ans.
+
+
+32
+What is ENV command?
+Ans.
+
+
+33
+What is Docker Volume?
+Ans.
+
+
+34
+Which command we used to create docker volume?
+Ans.
+
+35
+Which command we used for attaching docker volume to the container.
+Ans.
+
+
+36
+What is monolithic Application?
+Ans.
+
+
+37
+What are the disadvantages of monolithic application/
+Ans.
+\
+38
+What are Microservices?
+Ans.
+
+
+39
+What are the advantage of Microservices?
+Ans.
+
+
 40
 What is docker compose?
 Ans.
@@ -23,3 +207,7 @@ Ans.
 44
 Which command we used to create service?
 Ans.
+
+
+
+
