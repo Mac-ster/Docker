@@ -1,0 +1,19 @@
+-------------Docker Commands----------------
+
+1. sudo docker pull "image_name": Pulls the image from docker hub
+2. sudo docker images: "shows the list of images available on local machine"
+3. sudo docker run -it -d  "image_name" : run the docker image which is eventually a docker container. (A running instance of an image is a docker container)
+	Here -it refers to Interactive Terminal, which means we are making the container session interactive.
+	     -d refers running the image in the background.
+4. sudo docker exec -it "container_id" bash : This allows us to get access into the container and make it interactive. we use bash in the end as it is a bash terminal we are working with.
+5. sudo docker ps: list down running docker containers
+6. sudo docker ps -a: list down all the docker containers, running or not running
+7. sudo docker stop "container_id" : stops the running container
+8. sudo docker kill "container_id" : forcefully stops the running container
+9. sudo docker rm "container_id" removes the container
+10. sudo docker rmi "image name" : removes the image from local machine.
+11. sudo docker commit "container_id" "new image name" : this will create new image for current container id with the changes u have made.
+12. sudo docker rm -f $(sudo docker ps -a -q) : short cut to remove all containers in one command.
+13. sudo docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' "Container_id"
+14. sudo docker run -it -p 82:80 -d "image_name" : This command helps in enabling port 80 for host OS, as apache runs on port 80.
+Flag -p here is for port enabling.
