@@ -18,3 +18,8 @@
 14. sudo docker run -it -p 82:80 -d "image_name" : This command helps in enabling port 80 for host OS, as apache runs on port 80.
 Flag -p here is for port enabling.
 15.
+16
+17
+18
+19
+20
